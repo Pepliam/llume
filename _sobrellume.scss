@@ -1,0 +1,32 @@
+.contenedorSobre {
+    background-color: rgb(250, 239, 217);
+    background-position: center;
+    background-size: cover;
+    height: max-content;
+}
+
+.h1mot {
+    color: #344893;
+    text-align: center;
+    margin-bottom: 35px;
+    text-shadow: 5px 5px 12px #e1b735;
+
+}
+
+.carousel-inner img {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 65%;
+    height: auto;
+    text-align: center;
+    margin-left: 18%;
+
+}
+
+.carousel-control-next-icon {
+    background-color: #344893;
+}
+
+.carousel-control-prev-icon {
+    background-color: #344893;
+}

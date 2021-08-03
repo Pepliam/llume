@@ -1,0 +1,45 @@
+.contenedorExper {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(14, 45, 136);
+    padding: 20px;
+    display: flex;
+    justify-content: wrap;
+}
+
+.h1mot {
+    color: #344893;
+    text-align: center;
+    text-shadow: 2px 2px 6px #e1b735;
+
+}
+
+.items {
+    padding-top: 20px;
+    height: 670px;
+    width: 350px;
+    background-color: rgb(250, 239, 217);
+    text-align: center;
+    line-height: 20px;
+    font-family: "gfs didot";
+
+}
+
+.btn {
+    border: 2px solid #e1b735
+}
+
+#analisis,
+#armado,
+#personal,
+#proyeccion,
+#colorimetria {
+    height: 60%;
+    width: 90%;
+}
+
+
+.items h2 {
+    color: #344893;
+    font-size: 23px
+}

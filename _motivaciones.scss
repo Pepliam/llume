@@ -1,0 +1,56 @@
+.main1 {
+    background-color: rgb(250, 239, 217);
+    background-position: center;
+    background-size: cover;
+    height: max-content;
+
+    .h1mot {
+        color: #344893;
+        text-align: center;
+        margin-bottom: 35px;
+        text-shadow: 5px 5px 12px #e1b735;
+
+    }
+
+    .fondomotivaciones {
+        height: auto;
+        background-color: #344893;
+        background-image: radial-gradient(#344893, #344895, #e1b735);
+        border: 2px solid #e1b735;
+        width: 70%;
+        margin: auto;
+        padding: 1%;
+        display: grid;
+        grid-column-gap: 1px;
+        grid-row-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    $items: (item1: 75%,
+        item2: 79%,
+        item3: 81%,
+        item4: 84%,
+        item5: 87%,
+        item6: 90%,
+        item7: 93%,
+        item8: 97%,
+    );
+
+    @each $item,
+    $size in $items {
+        .btn--#{$item} {
+            width: $size;
+            height: 90%;
+            border: 2px solid #e1b735
+        }
+
+        .item:hover {
+            transform: scale(1.2);
+            transition: 0.6s;
+            filter: opacity(1);
+            box-shadow: 5px 5px 10px 1px #000;
+        }
+
+    }
+}

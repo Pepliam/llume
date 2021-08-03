@@ -1,0 +1,43 @@
+
+.div--background {
+    background-color: rgb(250, 239, 217);
+}
+
+.div__h1 {
+    text-align: center;
+    background-color: rgb(250, 239, 217);
+    color: #344893;
+    text-align: center;
+    margin-bottom: 35px;
+    text-shadow: 5px 5px 12px #e1b735
+}
+
+
+.h2form {
+    color: #e1b735;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 35px;
+    text-shadow: 5px 5px 12px black;
+    font-family: "gfs didot";
+}
+
+input {
+    transition: all 2s;
+}
+
+input:focus {
+    font-size: 35px;
+    border: 5px solid rgb(250, 239, 217);
+    color: rgb(122, 84, 8)
+}
+
+.contenedorform {
+    height: auto;
+    background-color: #344893;
+    border: 2px solid #e1b735;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+}
