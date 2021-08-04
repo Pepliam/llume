@@ -166,9 +166,7 @@ h1 {
   background-color: #faefd9;
   background-position: center;
   background-size: cover;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+    height: max-content;
 }
 
 .h1mot {
